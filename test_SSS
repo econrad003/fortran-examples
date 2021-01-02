@@ -1,0 +1,34 @@
+#!/usr/bin/sh
+echo "======================= TEST 1a ============================"
+echo "Pythagorean Triple"
+echo "3,4,5" | ./sss
+echo "======================= TEST 1b ============================"
+echo "Permuted Pythagorean Triple"
+echo "3,5,4" | ./sss
+echo "======================= TEST 1c ============================"
+echo "Permuted Pythagorean Triple"
+echo "4,5,3" | ./sss
+echo "======================= TEST 2 ============================"
+echo "Pythagorean Triple"
+echo "5,12,13" | ./sss
+echo "======================= TEST 3 ============================"
+echo "Right Isosceles Triangle"
+echo "1,1,1.4142135623730951" | ./sss
+echo "======================= TEST 4 ============================"
+echo "Equilateral Triangle"
+echo "1,1,1" | ./sss
+echo "======================= TEST 5 ============================"
+echo "30 degree-60 degree Right Triangle"
+echo "1,1.7320508075688772,2" | ./sss
+echo "======================= TEST 6a ============================"
+echo "Acute Triangle"
+echo "3,4,4.5" | ./sss
+echo "======================= TEST 6b ============================"
+echo "Obtuse Triangle"
+echo "3,4,6" | ./sss
+echo "======================= TEST 7a ============================"
+echo "Scalene Triangle"
+echo "5,11,12" | ./sss
+echo "======================= TEST 7b ============================"
+echo "Isosceles Triangle"
+echo "5,11.5,11.5" | ./sss
