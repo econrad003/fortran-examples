@@ -1,0 +1,198 @@
+======================= TEST 1a ============================
+Pythagorean Triple
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   3.00000000       4.00000000       5.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   3.00000000       (given)
+ b =   4.00000000       (given)
+ c =   5.00000000       (given)
+ A =  0.643501103     degrees:   36.8698959    
+ B =  0.927295208     degrees:   53.1301003    
+ C =   1.57079637     degrees:   90.0000000    
+ -----------------------------------------------------
+ semiperimeter:   6.00000000    
+ area:   6.00000000    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.54761910    
+======================= TEST 1b ============================
+Permuted Pythagorean Triple
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   3.00000000       5.00000000       4.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   3.00000000       (given)
+ b =   5.00000000       (given)
+ c =   4.00000000       (given)
+ A =  0.643501103     degrees:   36.8698959    
+ B =   1.57079637     degrees:   90.0000000    
+ C =  0.927295208     degrees:   53.1301003    
+ -----------------------------------------------------
+ semiperimeter:   6.00000000    
+ area:   6.00000000    
+ angle sum (radians):   3.14159274        error:   0.00000000    
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.54761910    
+======================= TEST 1c ============================
+Permuted Pythagorean Triple
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   4.00000000       5.00000000       3.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   4.00000000       (given)
+ b =   5.00000000       (given)
+ c =   3.00000000       (given)
+ A =  0.927295208     degrees:   53.1301003    
+ B =   1.57079637     degrees:   90.0000000    
+ C =  0.643501103     degrees:   36.8698959    
+ -----------------------------------------------------
+ semiperimeter:   6.00000000    
+ area:   6.00000000    
+ angle sum (radians):   3.14159274        error:   0.00000000    
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.54761910    
+======================= TEST 2 ============================
+Pythagorean Triple
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   5.00000000       12.0000000       13.0000000    
+ ------- SOLUTION ------------------------------------
+ a =   5.00000000       (given)
+ b =   12.0000000       (given)
+ c =   13.0000000       (given)
+ A =  0.394791096     degrees:   22.6198635    
+ B =   1.17600513     degrees:   67.3801270    
+ C =   1.57079637     degrees:   90.0000000    
+ -----------------------------------------------------
+ semiperimeter:   15.0000000    
+ area:   30.0000000    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.63137257    
+======================= TEST 3 ============================
+Right Isosceles Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   1.00000000       1.00000000       1.41421354    
+ ------- SOLUTION ------------------------------------
+ a =   1.00000000       (given)
+ b =   1.00000000       (given)
+ c =   1.41421354       (given)
+ A =  0.785398185     degrees:   45.0000000    
+ B =  0.785398185     degrees:   45.0000000    
+ C =   1.57079625     degrees:   89.9999924    
+ -----------------------------------------------------
+ semiperimeter:   1.70710683    
+ area:  0.500000119    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.53553391    
+======================= TEST 4 ============================
+Equilateral Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   1.00000000       1.00000000       1.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   1.00000000       (given)
+ b =   1.00000000       (given)
+ c =   1.00000000       (given)
+ A =   1.04719758     degrees:   60.0000000    
+ B =   1.04719758     degrees:   60.0000000    
+ C =   1.04719758     degrees:   60.0000000    
+ -----------------------------------------------------
+ semiperimeter:   1.50000000    
+ area:  0.433012694    
+ angle sum (radians):   3.14159274        error:   0.00000000    
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.50000000    
+======================= TEST 5 ============================
+30 degree-60 degree Right Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   1.00000000       1.73205078       2.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   1.00000000       (given)
+ b =   1.73205078       (given)
+ c =   2.00000000       (given)
+ A =  0.523598671     degrees:   29.9999924    
+ B =   1.04719758     degrees:   60.0000000    
+ C =   1.57079637     degrees:   90.0000000    
+ -----------------------------------------------------
+ semiperimeter:   2.36602545    
+ area:  0.866025507    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.57735026    
+======================= TEST 6a ============================
+Acute Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   3.00000000       4.00000000       4.50000000    
+ ------- SOLUTION ------------------------------------
+ a =   3.00000000       (given)
+ b =   4.00000000       (given)
+ c =   4.50000000       (given)
+ A =  0.712171853     degrees:   40.8044395    
+ B =   1.05785656     degrees:   60.6107140    
+ C =   1.37156427     degrees:   78.5848389    
+ -----------------------------------------------------
+ semiperimeter:   5.75000000    
+ area:   5.88131332    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.52913165    
+======================= TEST 6b ============================
+Obtuse Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   3.00000000       4.00000000       6.00000000    
+ ------- SOLUTION ------------------------------------
+ a =   3.00000000       (given)
+ b =   4.00000000       (given)
+ c =   6.00000000       (given)
+ A =  0.460493475     degrees:   26.3843307    
+ B =  0.634183824     degrees:   36.3360558    
+ C =   2.04691553     degrees:   117.279617    
+ -----------------------------------------------------
+ semiperimeter:   6.50000000    
+ area:   5.33268213    
+ angle sum (radians):   3.14159298        error:   2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.60158730    
+======================= TEST 7a ============================
+Scalene Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   5.00000000       11.0000000       12.0000000    
+ ------- SOLUTION ------------------------------------
+ a =   5.00000000       (given)
+ b =   11.0000000       (given)
+ c =   12.0000000       (given)
+ A =  0.429699600     degrees:   24.6199722    
+ B =   1.15927947     degrees:   66.4218216    
+ C =   1.55261350     degrees:   88.9581985    
+ -----------------------------------------------------
+ semiperimeter:   14.0000000    
+ area:   27.4954548    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   180.000000        error:   0.00000000    
+ Nesbitt's symmetric sum:   1.61445022    
+======================= TEST 7b ============================
+Isosceles Triangle
+ SSS Congruence
+ Enter the lengths of the three sides:
+ sides:   5.00000000       11.5000000       11.5000000    
+ ------- SOLUTION ------------------------------------
+ a =   5.00000000       (given)
+ b =   11.5000000       (given)
+ c =   11.5000000       (given)
+ A =  0.438282102     degrees:   25.1117134    
+ B =   1.35165524     degrees:   77.4441376    
+ C =   1.35165524     degrees:   77.4441376    
+ -----------------------------------------------------
+ semiperimeter:   14.0000000    
+ area:   28.0624313    
+ angle sum (radians):   3.14159250        error:  -2.38418579E-07
+ angle sum (degrees):   179.999985        error:  -1.52587891E-05
+ Nesbitt's symmetric sum:   1.61133075    
