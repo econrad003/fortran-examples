@@ -1,4 +1,7 @@
 ! triangle - ASS configuration
+! Copyright 2021 by Eric Conrad.
+! License - MIT License - see: https://opensource.org/licenses/MIT
+!
 !   input - the measure of an angle the length of a pair of sides
 !       that don't contain the angle (NB: one of the two sides will
 !       be opposite the given angle)
@@ -7,6 +10,12 @@
 !       the sides and angles
 !       the semiperimeter and the area
 !       type of triangle
+!
+! Corrections:
+!  14 Jan 2021 -
+!		- added copyright and license statement
+!		- corrected text of second error message under "Remaining error checks",
+!		  changing "given angles" (plural) to "given angle" (singular).
 
 ! When I took geometry in high school, this was called the ASS
 ! configuration.  In today's more puritannical times, it's called
@@ -69,9 +78,9 @@
           print*, "ERROR: the given angle must be positive"
           stop 1
       end if
-!   (2) the given angles must be less than a straight angle
+!   (2) the given angle must be less than a straight angle
       if(alpha.ge.pi) then
-          print*, "ERROR: the given angles must be less" // &
+          print*, "ERROR: the given angle must be less" // &
                 "than a straight angle"
           stop 1
       end if
